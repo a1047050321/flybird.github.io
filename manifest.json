@@ -1,6 +1,6 @@
 {
-    "short_name": "pwa-short",
-    "name": "mypwatest",
+    "short_name": "离线app测试",
+    "name": "离线app测试",
     "icon": [
         {
             "src": "https://lovesmilesha.github.io/flybird.github.io/images/logo.png",
