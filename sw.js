@@ -1,6 +1,5 @@
 var CACHE_NAME = 'my-site-cache-v10';
 const ONLINE = navigator.onLine;
-debugger
 if(ONLINE){
   console.log("联网状态");
 }else{
