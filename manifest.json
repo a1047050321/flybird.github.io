@@ -3,7 +3,7 @@
     "name": "mypwatest",
     "icon": [
         {
-            "src": "./images/logo.png",
+            "src": "https://lovesmilesha.github.io/flybird.github.io/images/logo.png",
             "type": "image/png",
             "sizes": "48x48"
         }
