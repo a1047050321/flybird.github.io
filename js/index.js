@@ -13,7 +13,10 @@ if ('serviceWorker' in navigator) {
             });
         }
         var img = new Image();
-            img.src='http://gd-file.img-cn-shenzhen.aliyuncs.com/image/easfiles/20170824153952695_20170824153952748.jpg';
+        img.src='http://p0.ifengimg.com/pmop/2018/0226/84C186AA05EA54AC4E9B6588E3FD155696E2AC67_size552_w542_h363.png';
+        img.onload= function(event){
+                console.log("图片加载完成")
+        };
          
       }).catch(function(err) {
         // registration failed :(
