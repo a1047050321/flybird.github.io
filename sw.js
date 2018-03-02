@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-site-cache-v16';
+var CACHE_NAME = 'my-site-cache-v17';
 const ONLINE = navigator.onLine;
 if(ONLINE){
   console.log("联网状态");
