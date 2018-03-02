@@ -3,7 +3,7 @@ if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('sw.js',{scope:'/flybird.github.io/'}).then(function(registration) {
         // Registration was successful
-        const version = '0.0.5';
+        const version = '0.0.6';
         const currrent_version = localStorage.getItem('sw_version');
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
         
