@@ -12,6 +12,9 @@ if ('serviceWorker' in navigator) {
                 localStorage.setItem('sw_version', version);
             });
         }
+        var img = new Image();
+            img.src='http://gd-file.img-cn-shenzhen.aliyuncs.com/image/easfiles/20170824153952695_20170824153952748.jpg';
+         
       }).catch(function(err) {
         // registration failed :(
         console.log('ServiceWorker registration failed: ', err);
